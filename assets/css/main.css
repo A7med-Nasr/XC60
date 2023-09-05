@@ -1,0 +1,758 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --main-bgc: linear-gradient(#1c2122, #748284);
+    --bgc: #748284;
+    --bgc2: #1c2122;
+}
+
+.row {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button {
+    cursor: pointer;
+    padding: 15px 40px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+button:hover {
+    border-color: rgba(255, 255, 255, 0.836);
+}
+
+button:hover a {
+    color: rgba(255, 255, 255, 0.836);
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    background-image: url(../imgs/main-img.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .logo {
+    margin: auto;
+    width: 5%;
+    padding: 25px 0;
+}
+
+.hero .logo img {
+    width: 70px;
+}
+
+.hero .caption {
+    text-align: center;
+    color: white;
+    margin-top: 64px;
+}
+
+.hero .caption h1 {
+    font-size: 135px;
+    font-weight: 400;
+}
+
+.hero .caption p {
+    font-size: 22px;
+}
+
+.how {
+    margin-top: 420px;
+    background-image: var(--main-bgc);
+    padding: 80px 0;
+}
+
+.how .row {
+    width: 80%;
+}
+
+.how .row .how-img {
+    width: 65%;
+}
+
+.how .row .caption {
+    width: 25%;
+    margin-top: 60px;
+    color: white;
+    text-align: right;
+}
+
+.how .row .caption h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.how .row .caption p {
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.how .how-heading {
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+.how .how-heading h2 {
+    font-size: 34px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.how .how-heading p {
+    width: 35%;
+    margin: auto;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.how .row2 {
+    width: 65%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.how .row .card {
+    width: 30%;
+    color: white;
+}
+
+.how .row .card .card-img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.how .row .card i {
+    font-size: 80px;
+}
+
+.how .row .card p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.service {
+    background-color: var(--bgc);
+}
+
+.service .row1 {
+    background-color: var(--bgc2);
+    width: 100%;
+}
+
+.service .row .caption {
+    width: 58%;
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+}
+
+.service .row .caption .title {
+    width: 80%;
+    margin-left: auto;
+}
+
+.service .row .caption .title h2 {
+    font-size: 34px;
+    padding: 20px 260px;
+    line-height: 40px;
+}
+
+.service .row .caption .title p {
+    font-size: 20px;
+    padding: 0 45px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.service .row .caption .title button {
+    display: block;
+    margin: auto;
+}
+
+.service .row .service-img {
+    width: 42%;
+}
+
+.service .row .service-img img {
+    height: 100%;
+}
+
+.service .service-bg {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../imgs/service-bg.jpg);
+    background-size: cover;
+}
+
+.service .row2 {
+    width: 65%;
+}
+
+.service .row2 .card {
+    width: 33.32%;
+    height: 280px;
+    position: relative;
+    bottom: 110px;
+    margin-bottom: -50px;
+}
+
+.service .row2 .card h2 {
+    font-size: 32px;
+    font-weight: light;
+    margin-bottom: 10px;
+}
+
+.service .row2 .card p {
+    line-height: 22px;
+    font-size: 17px;
+}
+
+.service .row2 .card1,
+.service .row2 .card2 {
+    padding: 70px 30px;
+    text-align: center;
+}
+
+.service .row .card1 {
+    background-color: var(--bgc2);
+    color: white;
+}
+
+.service .row2 .card2 {
+    background-color: white;
+}
+
+.service .row2 .card3 {
+    transform: translateY(-188px);
+    box-shadow: 0 0 30px rgb(103, 103, 103);
+}
+
+.service .row2 .card3 img {
+    box-shadow: 0 0 30px rgb(103, 103, 103);
+}
+
+.servicing .row {
+    width: 100%;
+    background-color: var(--bgc2);
+}
+
+.servicing .row .caption {
+    width: 40%;
+    color: white;
+    padding: 90px 55px;
+    text-align: center;
+}
+
+.servicing .row .caption i {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.servicing .row .caption h2 {
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.servicing .row .caption p {
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.servicing .row .caption button {
+    background-color: #fff;
+    padding: 15px 35px;
+    border: none;
+}
+
+.servicing .row .caption button:hover {
+    background-color: #c2c7c8;
+}
+
+.servicing .row .caption button:hover a {
+    color: #fff;
+}
+
+.servicing .row .caption button a {
+    color: black;
+    font-weight: 700;
+}
+
+.servicing .row .servicing-img {
+    width: 60%;
+}
+
+.servicing .row .servicing-img img {
+    height: 100%;
+}
+
+.our-cards {
+    background-image: var(--main-bgc);
+    padding: 70px 0;
+}
+
+.our-cards .row {
+    width: 70%;
+}
+
+.our-cards .row .card {
+    width: 28%;
+    color: white;
+}
+
+.our-cards .row .card h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.our-cards .row .card img {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.our-cards .row .card h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.our-cards .row .card ul {
+    margin-left: 20px;
+}
+
+.our-cards .row .card ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.black {
+    background-color: var(--bgc2);
+}
+
+.black .row {
+    width: 92%;
+}
+
+.black .row .img {
+    width: 60%;
+}
+
+.black .row .img img {
+    height: 100%;
+}
+
+.black .row .caption {
+    width: 40%;
+    color: white;
+    text-align: center;
+    padding: 150px 90px;
+}
+
+.black .row .caption h2 {
+    text-align: right;
+    font-size: 36px;
+}
+
+footer {
+    padding: 100px 0;
+    background-color: #333333;
+    text-align: center;
+    color: white;
+}
+
+footer p a {
+    text-decoration: none;
+    color: var(--bgc);
+}
+
+@media(max-width:950px) {
+    main {
+        background-image: url(../imgs/main950px.png);
+    }
+
+    .hero .logo {
+        padding: 20px 0;
+    }
+
+    .hero .logo img {
+        width: 80px;
+    }
+
+    .hero .caption {
+        margin-top: 76px;
+    }
+
+    .hero .caption h1 {
+        font-size: 120px;
+    }
+
+    .hero .caption p {
+        font-size: 20px;
+    }
+
+    .how {
+        margin-top: 700px;
+        padding: 50px 0;
+    }
+
+    .how .row {
+        width: 80%;
+    }
+
+    .how .row .how-img {
+        width: 100%;
+    }
+
+    .how .row .caption {
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .how .row .caption h2 {
+        font-size: 34px;
+        margin-bottom: 20px;
+        padding: 0 200px;
+    }
+
+    .how .row .caption p {
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    .how .how-heading h2 {
+        margin-bottom: 15px;
+    }
+
+    .how .how-heading p {
+        width: 75%;
+        font-size: 18px;
+    }
+
+    .how .row2 {
+        width: 80%;
+    }
+
+    .how .row .card {
+        width: 33%;
+    }
+
+    .how .row .card .card-img {
+        margin-bottom: 20px;
+    }
+
+    .how .row .card i {
+        font-size: 70px;
+    }
+
+    .how .row .card p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .service .row .caption {
+        width: 60%;
+        padding: 70px 0;
+    }
+
+    .service .row .caption .title {
+        width: 100%;
+    }
+
+    .service .row .caption .title h2 {
+        padding: 15px 100px;
+    }
+
+    .service .row .caption .title p {
+        font-size: 19px;
+    }
+
+    .service .row .service-img {
+        width: 40%;
+    }
+
+    .service .row2 {
+        width: 90%;
+    }
+
+    .service .row2 .card {
+        height: 260px;
+        bottom: 150px;
+        margin-bottom: -70px;
+    }
+
+    .service .row2 .card1,
+    .service .row2 .card2 {
+        padding: 40px 10px;
+    }
+
+    .service .row2 .card3 {
+        transform: translateY(-116.8px);
+        box-shadow: none;
+    }
+
+    .service .row2 .card3 img {
+        box-shadow: 0 0 30px rgb(103, 103, 103);
+    }
+
+    .servicing .row .caption {
+        padding: 50px 20px;
+    }
+
+    .servicing .row .caption i {
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+
+    .servicing .row .caption h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .servicing .row .caption p {
+        font-size: 18px;
+    }
+
+    .servicing .row .caption button {
+        padding: 20px 40px;
+    }
+
+    .servicing .row .caption button a {
+        font-size: 17px;
+    }
+
+    .servicing .row .servicing-img {
+        width: 60%;
+    }
+
+    .our-cards {
+        padding: 60px 0;
+    }
+
+    .our-cards .row {
+        width: 90%;
+    }
+
+    .our-cards .row .card {
+        width: 32%;
+    }
+
+    .our-cards .row .card img {
+        height: 110px;
+    }
+
+    .our-cards .row .card h3 {
+        font-size: 20px;
+    }
+
+    .our-cards .row .card ul li {
+        font-size: 18px;
+    }
+
+    .black .row {
+        width: 95%;
+    }
+
+    .black .row .caption {
+        padding: 100px 50px;
+    }
+
+    .black .row .caption h2 {
+        font-size: 32px;
+    }
+
+    footer {
+        padding: 70px 0;
+    }
+
+    footer p {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media(max-width:600px) {
+
+    main {
+        background-image: url(../imgs/main600px.png);
+    }
+
+    .hero .caption {
+        margin-top: 35px;
+    }
+
+    .hero .caption h1 {
+        font-size: 90px;
+    }
+
+    .how {
+        margin-top: 45vh;
+    }
+
+    .how .row {
+        width: 90%;
+    }
+
+    .how .row .caption h2 {
+        padding: 0 50px;
+    }
+
+    .how .how-heading {
+        margin-top: 50px;
+    }
+
+    .how .how-heading h2 {
+        font-size: 34px;
+    }
+
+    .how .how-heading p {
+        width: 80%;
+    }
+
+    .how .row .card i {
+        font-size: 50px;
+    }
+
+    .service .row {
+        flex-direction: column-reverse;
+    }
+
+    .service .row .caption {
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .service .row .caption .title h2 {
+        padding: 15px 50px;
+    }
+
+    .service .row .caption .title p {
+        font-size: 17px;
+    }
+
+    .service .row .service-img {
+        width: 100%;
+    }
+
+    .service .row2 .card {
+        height: 300px;
+        bottom: 650px;
+        position: none;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .service .row2 .card1,
+    .service .row2 .card2 {
+        padding: 80px 50px;
+    }
+
+    .service .row2 .card3 {
+        transform: translateY(900px);
+    }
+
+    .servicing .row {
+        flex-direction: column-reverse;
+    }
+
+    .servicing .row .caption {
+        width: 100%;
+        padding: 40px 30px;
+    }
+
+    .servicing .row .caption i {
+        font-size: 60px;
+    }
+
+    .servicing .row .caption h2 {
+        font-size: 30px;
+    }
+
+    .servicing .row .caption p {
+        font-size: 16px;
+    }
+
+    .servicing .row .caption button a {
+        font-size: 14px;
+    }
+
+    .servicing .row .servicing-img {
+        width: 100%;
+    }
+
+    .our-cards {
+        padding: 20px 0;
+    }
+
+    .our-cards .row {
+        width: 80%;
+    }
+
+    .our-cards .row .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .our-cards .row .card img {
+        height: 100px;
+    }
+
+    .our-cards .row .card h3 {
+        font-size: 19px;
+    }
+
+    .our-cards .row .card ul li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .black .row {
+        width: 100%;
+    }
+
+    .black .row .img {
+        width: 100%;
+    }
+
+    .black .row .caption {
+        padding: 50px 60px;
+        width: 100%;
+    }
+
+    footer {
+        padding: 50px 0;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+}
